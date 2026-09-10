@@ -1,0 +1,32 @@
+# Raw datasets (keep source files and notebooks under version control)
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.xlsx
+*.xls
+/ESG_report_data/
+
+# Preprocessed arrays, analysis outputs and trained models
+data_in/
+data_out/
+colab_test_output/
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.ckpt.*
+*.safetensors
+*.tflite
+*.onnx
+*_model.zip
+test.py
+
+# Python and Jupyter generated files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
